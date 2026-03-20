@@ -28,6 +28,7 @@ export default function PerfectFor() {
                 src={audience.image}
                 alt={audience.title}
                 fill
+                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 20vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
               />
               {/* Subtle overlay on hover */}
@@ -35,8 +36,8 @@ export default function PerfectFor() {
             </div>
             {/* Content */}
             <div className="p-3.5">
-              <h3 className="text-lg font-bold text-[#0f2d4a] mb-1 tracking-tight">{audience.title}</h3>
-              <p className="text-sm text-gray-400 font-normal leading-relaxed">{audience.description}</p>
+              <h3 className="text-sm font-black text-[#0f2d4a] mb-1 tracking-tight">{audience.title}</h3>
+              <p className="text-xs text-gray-400 font-normal leading-relaxed">{audience.description}</p>
             </div>
           </div>
         ))}
