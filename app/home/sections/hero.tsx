@@ -20,7 +20,8 @@ export default function Hero() {
         fill
         priority
         fetchPriority="high"
-        sizes="100vw"
+        sizes="(max-width: 640px) 640w, (max-width: 1024px) 1024w, 100vw"
+        quality={100}
         className="object-cover object-[70%] md:object-[60%] lg:object-center"
       />
 
@@ -60,7 +61,7 @@ export default function Hero() {
       </div>
 
       {/* Feature bar — full width strip at bottom of hero */}
-      <div className="relative z-10 w-full bg-[#163f63]/80 backdrop-blur-sm md:border-t md:border-white/10">
+      <div className="relative z-10 w-full bg-[#163f63]/90 md:bg-[#163f63]/80 md:backdrop-blur-sm md:border-t md:border-white/10">
         <div className="container mx-auto px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 md:divide-x divide-y md:divide-y-0 divide-white/10">
             {features.map((feature, index) => (
