@@ -9,7 +9,7 @@ export default function Pricing() {
   ]
 
   return (
-    <section id="pricing" className="pt-10 pb-10 lg:pl-6">
+    <section id="pricing" className="pt-10 pb-10 pl-6 scroll-mt-40">
 
       <div className="flex items-center gap-2 mb-5">
         <div className="h-0.5 w-5 bg-[#6ab04c]" />

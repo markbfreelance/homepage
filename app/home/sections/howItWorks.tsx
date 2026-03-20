@@ -18,7 +18,7 @@ export default function HowItWorks() {
   ]
 
   return (
-    <section id="how-it-works" className="pt-10 pb-6">
+    <section id="how-it-works" className="pt-10 pb-6 scroll-mt-40">
       <div className="flex items-center gap-2 mb-6">
         <div className="h-0.5 w-5 bg-[#6ab04c]" />
         <h2 className="text-2xl font-black text-[#0f2d4a] tracking-tight">How It Works</h2>
