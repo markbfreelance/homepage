@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 export default function PerfectFor() {
   const audiences = [
-    { title: 'Busy Homeowners', description: 'Never forget trash day', image: '/thumbnails/homeowners.png' },
-    { title: 'Seniors', description: 'Safe and convenient service', image: '/thumbnails/seniors.png' },
-    { title: 'Rental Properties', description: 'Keep your tenants happy', image: '/thumbnails/properties.png' },
-    { title: 'Property Managers', description: 'Reliable service for multiple homes', image: '/thumbnails/managers.png' },
+    { title: 'Busy Homeowners', description: 'Never forget trash day', image: '/thumbnails/homeowners.webp' },
+    { title: 'Seniors', description: 'Safe and convenient service', image: '/thumbnails/seniors.webp' },
+    { title: 'Rental Properties', description: 'Keep your tenants happy', image: '/thumbnails/properties.webp' },
+    { title: 'Property Managers', description: 'Reliable service for multiple homes', image: '/thumbnails/managers.webp' },
   ]
 
   return (

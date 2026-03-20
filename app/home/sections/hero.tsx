@@ -14,7 +14,7 @@ export default function Hero() {
       {/* Full-bleed background image */}
       <div
         className="absolute inset-0 bg-cover bg-no-repeat bg-position-[70%] md:bg-position-[60%] lg:bg-center"
-        style={{ backgroundImage: "url('/background/hero-bg-3.png')" }}
+        style={{ backgroundImage: "url('/background/hero-bg-3.webp')" }}
       />
 
       {/* Left-to-right gradient */}

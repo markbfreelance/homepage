@@ -14,7 +14,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/logo/main-logo.png"
+            src="/logo/main-logo.webp"
             alt="CanDonkeys Logo"
             width={40}
             height={40}
