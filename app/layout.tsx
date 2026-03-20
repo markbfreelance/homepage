@@ -19,6 +19,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        {/* Preload LCP hero image so browser discovers it immediately */}
+        <link
+          rel="preload"
+          href="/background/hero-bg-3.webp"
+          as="image"
+          fetchPriority="high"
+        />
+      </head>
       <body className={lato.className}>{children}</body>
     </html>
   )

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { MapPin, DollarSign, CheckCircle, Users } from 'lucide-react'
 
@@ -11,10 +12,16 @@ const features = [
 export default function Hero() {
   return (
     <section className="relative pt-[60px] overflow-hidden">
-      {/* Full-bleed background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-no-repeat bg-position-[70%] md:bg-position-[60%] lg:bg-center"
-        style={{ backgroundImage: "url('/background/hero-bg-3.webp')" }}
+
+      {/* LCP image — loaded via Next.js Image with priority for fetchpriority=high */}
+      <Image
+        src="/background/hero-bg-3.webp"
+        alt="CanDonkeys hero background"
+        fill
+        priority
+        fetchPriority="high"
+        sizes="100vw"
+        className="object-cover object-[70%] md:object-[60%] lg:object-center"
       />
 
       {/* Left-to-right gradient */}
