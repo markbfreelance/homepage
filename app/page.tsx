@@ -4,6 +4,8 @@ import HowItWorks from './home/sections/howItWorks'
 import PerfectFor from './home/sections/perfectFor'
 import Pricing from './home/sections/pricing'
 import Testimonials from './home/sections/testimonials'
+import ServiceArea from './home/sections/serviceArea'
+import Contact from './home/sections/contact'
 import Footer from './components/footer'
 
 export default function Home() {
@@ -28,6 +30,8 @@ export default function Home() {
       </section>
 
       <Testimonials />
+      <ServiceArea />
+      <Contact />
       <Footer />
     </main>
   )
