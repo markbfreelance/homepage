@@ -15,7 +15,7 @@ export default function Hero() {
 
       {/* LCP image — loaded via Next.js Image with priority for fetchpriority=high */}
       <Image
-        src="/background/hero-bg-3.webp"
+        src="/background/hero-bg-4.webp"
         alt="CanDonkeys hero background"
         fill
         priority

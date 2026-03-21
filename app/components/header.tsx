@@ -14,17 +14,13 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/logo/main-logo.webp"
+            src="/logo/logo.webp"
             alt="CanDonkeys Logo"
-            width={40}
-            height={40}
-            className="h-9 w-auto object-contain"
+            width={60}
+            height={60}
+            className="h-16 w-auto object-contain"
             priority
           />
-          <span className="font-black text-xl tracking-tight">
-            <span className="text-white">Can</span>
-            <span className="text-[#a8d45e]">Donkeys</span>
-          </span>
         </Link>
 
         {/* Desktop Navigation */}
