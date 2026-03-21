@@ -31,7 +31,7 @@ export default function Footer() {
       </div>
 
       {/* Main Footer */}
-      <footer className="bg-[#0f2d4a] text-white">
+      <footer className="bg-gray-50 text-gray-800">
         <div className="container mx-auto px-8 py-14">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
 
@@ -39,18 +39,18 @@ export default function Footer() {
             <div className="md:col-span-1">
               <Link href="/" className="flex items-center gap-2.5 mb-4">
                 <Image
-                  src="/logo/main-logo.png"
+                  src="/logo/logo.webp"
                   alt="CanDonkeys"
                   width={36}
                   height={36}
-                  className="h-8 w-auto object-contain"
+                  className="h-16 w-auto object-contain"
                 />
-                <span className="font-black text-lg tracking-tight">
+                {/* <span className="font-black text-lg tracking-tight">
                   <span className="text-white">Can</span>
                   <span className="text-[#a8d45e]">Donkeys</span>
-                </span>
+                </span> */}
               </Link>
-              <p className="text-white/50 text-xs leading-relaxed mb-6">
+              <p className="text-xs leading-relaxed mb-6">
                 Reliable weekly trash & recycling can service for homeowners, seniors, and families in Bucks County, PA.
               </p>
               {/* Social icons */}
@@ -61,7 +61,7 @@ export default function Footer() {
                     href="#"
                     className="w-8 h-8 rounded-md bg-white/10 hover:bg-[#6ab04c] flex items-center justify-center transition-colors"
                   >
-                    <Icon className="w-3.5 h-3.5 text-white" strokeWidth={2} />
+                    <Icon className="w-3.5 h-3.5" strokeWidth={2} />
                   </a>
                 ))}
               </div>
@@ -69,7 +69,7 @@ export default function Footer() {
 
             {/* Quick Links */}
             <div>
-              <h4 className="text-xs font-black tracking-widest uppercase text-white/40 mb-4">Quick Links</h4>
+              <h4 className="text-xs font-black tracking-widest uppercase mb-4">Quick Links</h4>
               <ul className="space-y-2.5">
                 {[
                   { label: 'How It Works', href: '#how-it-works' },
@@ -80,7 +80,7 @@ export default function Footer() {
                   <li key={link.label}>
                     <Link
                       href={link.href}
-                      className="text-white/60 hover:text-[#a8d45e] text-sm font-normal transition-colors"
+                      className="hover:text-[#a8d45e] text-sm font-normal transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -91,31 +91,31 @@ export default function Footer() {
 
             {/* Service Areas */}
             <div>
-              <h4 className="text-xs font-black tracking-widest uppercase text-white/40 mb-4">Service Areas</h4>
+              <h4 className="text-xs font-black tracking-widest uppercase mb-4">Service Areas</h4>
               <ul className="space-y-2.5">
                 {['Bensalem', 'Langhorne', 'Festerville', 'Trevose', 'Feasterville', 'Penndel'].map((area) => (
-                  <li key={area} className="text-white/60 text-sm font-normal">{area}</li>
+                  <li key={area} className="text-sm font-normal">{area}</li>
                 ))}
               </ul>
             </div>
 
             {/* Contact */}
             <div>
-              <h4 className="text-xs font-black tracking-widest uppercase text-white/40 mb-4">Contact</h4>
+              <h4 className="text-xs font-black tracking-widest uppercase mb-4">Contact</h4>
               <ul className="space-y-3">
                 <li className="flex items-start gap-2.5">
                   <MapPin className="w-4 h-4 text-[#6ab04c] shrink-0 mt-0.5" strokeWidth={2} />
-                  <span className="text-white/60 text-sm font-normal">Bucks County, PA</span>
+                  <span className="text-sm font-normal">Bucks County, PA</span>
                 </li>
                 <li className="flex items-center gap-2.5">
                   <Phone className="w-4 h-4 text-[#6ab04c] shrink-0" strokeWidth={2} />
-                  <a href="tel:+12155550000" className="text-white/60 hover:text-[#a8d45e] text-sm font-normal transition-colors">
+                  <a href="tel:+12155550000" className="hover:text-[#a8d45e] text-sm font-normal transition-colors">
                     (215) 555-0000
                   </a>
                 </li>
                 <li className="flex items-center gap-2.5">
                   <Mail className="w-4 h-4 text-[#6ab04c] shrink-0" strokeWidth={2} />
-                  <a href="mailto:hello@candonkeys.com" className="text-white/60 hover:text-[#a8d45e] text-sm font-normal transition-colors">
+                  <a href="mailto:hello@candonkeys.com" className="hover:text-[#a8d45e] text-sm font-normal transition-colors">
                     hello@candonkeys.com
                   </a>
                 </li>
@@ -128,12 +128,12 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10">
           <div className="container mx-auto px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <p className="text-white/30 text-xs font-normal">
+            <p className="text-xs font-normal">
               © {new Date().getFullYear()} CanDonkeys. All rights reserved.
             </p>
             <div className="flex items-center gap-5">
-              <Link href="/privacy-policy" className="text-white/30 hover:text-white/60 text-xs transition-colors">Privacy Policy</Link>
-              <Link href="/terms-of-service" className="text-white/30 hover:text-white/60 text-xs transition-colors">Terms of Service</Link>
+              <Link href="/privacy-policy" className="text-xs hover:text-[#a8d45e] transition-colors">Privacy Policy</Link>
+              <Link href="/terms-of-service" className="text-xs hover:text-[#a8d45e] transition-colors">Terms of Service</Link>
             </div>
           </div>
         </div>
