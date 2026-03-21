@@ -18,7 +18,7 @@ export default function Footer() {
             href="#pricing"
             className="inline-block bg-[#6ab04c] hover:bg-[#5a9a3c] text-white font-black px-8 py-3.5 rounded-md transition-all hover:scale-105 shadow-md text-sm tracking-tight"
           >
-            Get Started — First Week Free
+            Get Started — Free 3-Week Trial!
           </Link>
         </div>
       </section>

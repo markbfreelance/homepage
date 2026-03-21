@@ -59,7 +59,7 @@ export default function TermsOfServicePage() {
 
           <Section title="4. Payment & Billing">
             <ul>
-              <li>Service is billed at <strong>$10 per week</strong>, with your first week free</li>
+              <li>Service is billed at <strong>$10 per week</strong>, with Free 3-Week Trial!</li>
               <li>Billing occurs on a recurring weekly basis via the payment method on file</li>
               <li>All payments are processed securely. We do not store full card details on our servers</li>
               <li>If a payment fails, we will notify you and attempt to retry. Continued non-payment may result in suspension of service</li>

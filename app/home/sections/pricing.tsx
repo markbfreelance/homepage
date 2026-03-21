@@ -28,7 +28,7 @@ export default function Pricing() {
               </div>
               <p className="text-white/60 text-xs mt-1.5 font-normal">
                 Trash & Recycling •{' '}
-                <span className="text-[#a8d45e] font-bold">First Week Free!</span>
+                <span className="text-[#a8d45e] font-bold">Free 3-Week Trial!</span>
               </p>
             </div>
             {/* Map */}
