@@ -11,19 +11,12 @@ export default function Contact() {
     setStatus('loading')
 
     const form = e.currentTarget
-    const data = {
-      name: (form.elements.namedItem('name') as HTMLInputElement).value,
-      email: (form.elements.namedItem('email') as HTMLInputElement).value,
-      phone: (form.elements.namedItem('phone') as HTMLInputElement).value,
-      address: (form.elements.namedItem('address') as HTMLInputElement).value,
-      message: (form.elements.namedItem('message') as HTMLTextAreaElement).value,
-    }
 
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('https://formspree.io/f/maqprjwo', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        body: new FormData(form),
+        headers: { Accept: 'application/json' },
       })
 
       if (res.ok) {
@@ -71,8 +64,11 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-[#0f2d4a] uppercase tracking-wide mb-0.5">Phone</p>
-                  <a href="tel:+12155550000" className="text-sm text-gray-500 hover:text-[#6ab04c] transition-colors">
-                    (215) 555-0000
+                  <a
+                    href="tel:+12672813939"
+                    className="text-sm text-gray-500 hover:text-[#6ab04c] transition-colors"
+                  >
+                    (267) 281-3939
                   </a>
                 </div>
               </li>
@@ -82,8 +78,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-[#0f2d4a] uppercase tracking-wide mb-0.5">Email</p>
-                  <a href="mailto:hello@candonkeys.com" className="text-sm text-gray-500 hover:text-[#6ab04c] transition-colors">
-                    hello@candonkeys.com
+                  <a href="mailto:support@candonkeys.com" className="text-sm text-gray-500 hover:text-[#6ab04c] transition-colors">
+                    support@candonkeys.com
                   </a>
                 </div>
               </li>

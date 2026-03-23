@@ -21,6 +21,10 @@ export default function Header() {
             className="h-16 w-auto object-contain"
             priority
           />
+          <span className="text-2xl md:text-3xl font-extrabold tracking-tight">
+            <span className="text-[#75ad13]">Can</span>
+            <span className="text-[#011c36]">Donkeys</span>
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
