@@ -103,9 +103,8 @@ export default function TermsOfServicePage() {
           <Section title="10. Contact Us">
             <p>If you have any questions about these Terms of Service, please reach out:</p>
             <ul>
-              <li><strong>Email:</strong> <a href="mailto:hello@candonkeys.com" className="text-[#1a4f80] font-bold hover:text-[#6ab04c] transition-colors">hello@candonkeys.com</a></li>
-              <li><strong>Phone:</strong> <a href="tel:+12155550000" className="text-[#1a4f80] font-bold hover:text-[#6ab04c] transition-colors">(215) 555-0000</a></li>
-              <li><strong>Address:</strong> Bucks County, PA</li>
+              <li><strong>Email:</strong> <a href="mailto:support@candonkeys.com" className="text-[#1a4f80] font-bold hover:text-[#6ab04c] transition-colors">support@candonkeys.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+12672813939" className="text-[#1a4f80] font-bold hover:text-[#6ab04c] transition-colors">(267) 281-3939</a></li>
             </ul>
           </Section>
 

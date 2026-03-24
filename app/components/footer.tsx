@@ -15,7 +15,7 @@ export default function Footer() {
             Join homeowners across Bucks County who never worry about trash day again.
           </p>
           <Link
-            href="#pricing"
+            href="/#contact"
             className="inline-block bg-[#6ab04c] hover:bg-[#5a9a3c] text-white font-black px-8 py-3.5 rounded-md transition-all hover:scale-105 shadow-md text-sm tracking-tight"
           >
             Get Started — Free 3-Week Trial!
@@ -109,14 +109,14 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-2.5">
                   <Phone className="w-4 h-4 text-[#6ab04c] shrink-0" strokeWidth={2} />
-                  <a href="tel:+12155550000" className="hover:text-[#a8d45e] text-sm font-normal transition-colors">
-                    (215) 555-0000
+                  <a href="tel:+12672813939" className="hover:text-[#a8d45e] text-sm font-normal transition-colors">
+                    (267) 281-3939
                   </a>
                 </li>
                 <li className="flex items-center gap-2.5">
                   <Mail className="w-4 h-4 text-[#6ab04c] shrink-0" strokeWidth={2} />
-                  <a href="mailto:hello@candonkeys.com" className="hover:text-[#a8d45e] text-sm font-normal transition-colors">
-                    hello@candonkeys.com
+                  <a href="mailto:support@candonkeys.com" className="hover:text-[#a8d45e] text-sm font-normal transition-colors">
+                    support@candonkeys.com
                   </a>
                 </li>
               </ul>
